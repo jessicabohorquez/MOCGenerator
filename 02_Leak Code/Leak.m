@@ -9,7 +9,7 @@ nuu=InputSys(11);
 vo1=InputSys(12);
 ks=InputSys(13);
 TT=InputSys(14);
-Cd=InputSys(18);
+Cd=InputSys(17);
 
 g=9.81;
 Alpha=0.5;
