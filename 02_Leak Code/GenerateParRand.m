@@ -1,6 +1,6 @@
 function [] = GenerateParRand(InputSysLeak,Total)
-%Function that generates a file with head series at the end of a pipe with
-%two different diameters changing the position of the diameter change
+%Function that generates a file with transient pressure traces measured at the end of a pipe with
+%one leak located at different points along the pipeline
 
 LT=InputSysLeak(2);
 MinTS=InputSysLeak(15);
@@ -21,9 +21,7 @@ FileDownV=cell(Times,1);
 Dt=TT/MinTS;
 DiscL=Dt*a;
 
-%%%%%Consider that is not general for a DeltaD with more decimals%%%%%%
 DiscL=round(DiscL*10)/10;
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 LAvail=LT-DiscL;
 
