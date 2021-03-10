@@ -35,3 +35,5 @@ After running GenerateParRand you should have the dataset before the time downsa
 InputPath= path where the results from GenerateParRand are
 Combinations=Number of files generated from GenerateParRand
 SampleSize = Desired length of final traces (1200 for the paper case)
+
+In the output (as well as in the subdataset provided) the location of the leak is ROW 1 and the leak size (mm) is ROW 3. 
