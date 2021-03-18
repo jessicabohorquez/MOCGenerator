@@ -7,8 +7,8 @@ MinTS=InputSysLeak(15);
 TT=InputSysLeak(14);
 NumLoc=InputSysLeak(16);
 D=InputSysLeak(3);
-DLeakMin=InputSysLeak(19);
-DLeakMax=InputSysLeak(20);
+DLeakMin=InputSysLeak(18);
+DLeakMax=InputSysLeak(19);
 
 [a]=WaveSpeed(InputSysLeak);
 DeltaD=LT/NumLoc;
