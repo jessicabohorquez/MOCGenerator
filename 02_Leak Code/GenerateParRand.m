@@ -53,9 +53,8 @@ for k=1:Times
     n=NumLoc-2;
     for i=1:n
         Dist=DistV(i)
-        Dist=160;
+    
         DLeak=randi([DLeakMin,DLeakMax]);
-        DLeak=1;
                            
         [HeadV] = Leak(InputSysLeak,Dist,DLeak,Dt,a);
         
